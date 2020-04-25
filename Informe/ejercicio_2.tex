@@ -1,0 +1,126 @@
+\documentclass[letterpaper]{article}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{Evaluación DSP}
+\author{Saez, Lautaro Andres}
+
+\begin{document}
+    \maketitle
+
+    \section{Marco Teorico}
+
+    \subsection{DFT}
+
+    Se define la \textbf{DFT} de una secuencia $x[n]$ de $N$ muestras como
+
+    \begin{equation}
+        \label{eq.DFT}
+        X[k]=\sum_{n=0}^{N-1} x[n]e^{-j\frac{2\pi }{N} nk }
+    \end{equation}
+
+    \subsection{CTFS}
+
+    La \textbf{CTFS} de una señal podemos calcularla como 
+
+    \begin{equation}
+        a_k = \
+    \end{equation}
+
+    \section*{Ejercicio 2}
+
+    Se utilizara la siguiente señal 
+
+    \begin{equation}
+        \label{eq.punto2}
+        x_c(t) = sin( 200 \pi t )
+    \end{equation}
+
+    \subsection*{Calculo de la CTFS}
+
+    Aplicando la identidad de Euler a la eq.\ref{eq.punto2} se obtiene 
+
+    \begin{equation}
+        x_c(t)=\frac{1}{2j}( e^{j200\pi t} - e^{-j200 \pi t})
+    \end{equation}
+
+    Es posible apreciar que los coeficientes de la serie son: 
+
+    \begin{equation}
+        c_1 = \frac{1}{2j} \hspace*{.1cm} \land \hspace*{.1cm} c_{-1}=-\frac{1}{2j}
+    \end{equation}
+
+    \subsection*{Muestreo}
+
+    Aplicando el teorema del muestreo, se debe elegir una frecuencia mayor a $2F_N$, siendo 
+    en este caso $F_N=100Hz$, por ello se utilizara $F_s=400Hz$. Con dicha frecuencia se obtiene 
+
+    \begin{equation}
+        x[n]=x(n/F_s) \rightarrow x[n]= sin\left( \frac{\pi}{2} n\right)
+    \end{equation}
+
+    Cuyo periodo fundamental ($N_0$) es $4$.
+
+    Aplicando la eq.\ref{eq.DFT}
+
+    \begin{equation}
+        X[k]= \sum_{n=0}^{3} sin\left( \frac{\pi}{2} n\right) e^{-j\frac{\pi}{2} nk}
+    \end{equation}
+
+    Calculando los valores de $x[n]$ para $n\in {1, 2, 3 ,4}$
+
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline $n$ & $sin(\pi n/2)$ \\ 
+            \hline $0$ & $0$ \\
+            \hline $1$ & $1$ \\
+            \hline $2$ & $0$ \\
+            \hline $3$ & $-1$ \\
+            \hline
+        \end{tabular}
+        \caption{Valores de la señal muestreada en 1 periodo.}
+    \end{table}
+
+    Reemplazando en la ecuacion anterior, se obtiene 
+
+    \begin{equation}
+        X[k]= e^{-j\frac{\pi}{2}k} - e^{-j\frac{ 3 \pi}{2}k}
+    \end{equation}
+
+    Es posible expresar a $e^{-j\frac{ 3 \pi}{2}k}$ como $e^{-j \frac{\pi }{2}k}e^{-j\pi k}$, aplicando la identidad de Euler 
+    $e^{-j \pi k}= (-1)^k$. 
+
+    \begin{equation}
+        X[k]= [ 1 + (-1)^(k+1) ] e^{ -j \frac{\pi }{2} k }
+    \end{equation}
+
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline $k$ & $X[k]$ \\
+            \hline $0$ & $0$ \\
+            \hline $1$ & $-2j$ \\
+            \hline $2$ & $0$ \\
+            \hline $3$ & $2j$ \\
+            \hline
+        \end{tabular}
+        \caption{Valores de $X[k]$.}
+        \label{tab.xk}
+    \end{table}
+
+    \subsection{CTFS a partir de la DFT}
+
+    Al dividir los coeficientes $X[k]$ (Tab.\ref{tab.xk}) por el el numero de muestras $N$, el resultado son los coeficientes 
+    $c_k$. Luego se puede establecer a priopi la relacion 
+    
+    \begin{equation}
+        c_k = \frac{X[k]}{N}
+    \end{equation}
+
+    Para la ecuacion anterior se aplica el conocimiento que $X[k]$ es periodica, y por lo tanto $X[-1]=X[3]$.
+
+\end{document}
