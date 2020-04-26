@@ -1,0 +1,93 @@
+\documentclass[letterpaper]{article}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+    
+Aplicando la eq.\ref{eq.DFT} se obtiene 
+
+\begin{equation}
+    x[k] = \sum_{n=0}^{7} \sin \left( \frac{\pi }{4} n \right) e^{-j\frac{\pi }{4}nk} 
+\end{equation}
+
+Para desarrollar la sumatoria de forma mas sencilla la sumatoria presentan los valores de $x[n]$ para $n \in \{0, 1, 2, 3, 4 , 5, 6, 7\}$ en la 
+Tabla.\ref{tab.xn}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline $n$ &  $x[n]$\\ 
+        \hline $0$ & $0$ \\
+        \hline $1$ & $\sqrt{2}/2$ \\
+        \hline $2$ & $1$ \\
+        \hline $3$ & $\sqrt{2}/2$ \\
+        \hline $4$ & $0$ \\
+        \hline $5$ & $-\sqrt{2}/2$ \\
+        \hline $6$ & $-1$ \\
+        \hline $7$ & $-\sqrt{2}/2$ \\
+        \hline
+    \end{tabular}
+    \caption{Valores de $x[n]$ para un periodo.}
+    \label{tab.xn}
+
+\end{table}
+
+Con lo que se obtiene 
+
+\begin{equation}
+    X[k]= \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} + e^{-j\frac{\pi }{2}k} + \frac{\sqrt{2}}{2} e^{-j\frac{3\pi }{4}k}
+    - \frac{\sqrt{2}}{2} e^{-j\frac{5\pi }{4}k} - e^{-j\frac{3\pi }{2}k} - \frac{\sqrt{2}}{2} e^{-j\frac{7\pi }{4}k} 
+\end{equation}
+
+Si expresamos las exponenciales correspondientes para $n \in \{ 5, 6 ,7 \}$ como $m\pi/4 + \pi$ donde $m$ es un entero entre 
+$0$ y $4$, es posible expresar 
+
+\begin{equation}
+    X[k] = \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} + e^{-j\frac{\pi }{2}k} + \frac{\sqrt{2}}{2} e^{-j\frac{3\pi }{4}k}
+    - \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} e^{-j\pi k} - e^{-j\frac{\pi }{2}k}e^{-j\pi k} - \frac{\sqrt{2}}{2} e^{-j\frac{3\pi }{4}k} e^{-j\pi k}
+\end{equation}
+
+Como $k$ es entero y $e^{-j\pi k}$ es siempre multiplo de $\pi$ entonces $e^{-j\pi k} = (-1)^k$.
+
+\begin{equation}
+    X[k] = \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} + e^{-j\frac{\pi }{2}k} + \frac{\sqrt{2}}{2} e^{-j\frac{3\pi }{4}k}
+    (-1)^{1+k} \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} +(-1)^{1+k} e^{-j\frac{\pi }{2}k} + (-1)^{1+k}\frac{\sqrt{2}}{2} e^{-j\frac{3\pi }{4}k} 
+\end{equation}
+
+Agrupando los valores se obtiene 
+
+\begin{equation}
+    X[k]= [ 1 + (-1)^{1+k} ] ( \frac{\sqrt{2}}{2} e^{-j\frac{\pi }{4}k} +e^{-j\frac{\pi }{2}k} + 
+    \frac{\sqrt{2}}{2}  e^{-j\frac{3\pi }{4}k} )
+    \label{eq.xk}
+\end{equation}
+
+
+Sabiendo que $X[k]$ es periodica con periodo $N$, en este caso $8$, se muentran en tab.\ref{tab.xk} los valores obtenidos para 
+los diferentes valores de $k$ en un periodo, por otro lado de la eq.\ref{eq.xk} se sabe que si $k$ es par $X[k]$ es $0$.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline $k$ & $X[k]$ \\ 
+        \hline $0$ & $0$ \\ 
+        \hline $1$ & $-4j$ \\ 
+        \hline $2$ & $0$ \\ 
+        \hline $3$ & $0$ \\ 
+        \hline $4$ & $0$ \\ 
+        \hline $5$ & $0$ \\ 
+        \hline $6$ & $0$ \\ 
+        \hline $7$ & $4j$ \\ 
+        \hline 
+        
+    \end{tabular}
+    \caption{$X[k]$ obtenidos para un periodo.}
+    \label{tab.xk}
+
+\end{table}
+
+
+\end{document}
