@@ -1,11 +1,15 @@
 PWD /home/lautaro/Documents/Facultad/DSP/Proyecto 1
 INPUT /home/lautaro/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/ejercicio_2.tex
-OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.log
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/informe.tex
+OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.log
 INPUT /usr/local/share/miktex-texmf/tex/latex/base/article.cls
 INPUT /usr/local/share/miktex-texmf/tex/latex/base/article.cls
 INPUT /usr/local/share/miktex-texmf/tex/latex/base/size10.clo
 INPUT /usr/local/share/miktex-texmf/tex/latex/base/size10.clo
+INPUT /usr/local/share/miktex-texmf/tex/latex/base/inputenc.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/base/inputenc.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/base/latin1.def
+INPUT /usr/local/share/miktex-texmf/tex/latex/base/latin1.def
 INPUT /usr/local/share/miktex-texmf/tex/generic/babel/babel.sty
 INPUT /usr/local/share/miktex-texmf/tex/generic/babel/babel.sty
 INPUT /usr/local/share/miktex-texmf/tex/generic/babel/switch.def
@@ -15,12 +19,20 @@ INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
 INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
 INPUT /usr/local/share/miktex-texmf/tex/generic/babel/babel.def
 INPUT /usr/local/share/miktex-texmf/tex/generic/babel/txtbabel.def
-INPUT /usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
-INPUT /usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
-INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/float/float.sty
-INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/float/float.sty
-INPUT /usr/local/share/miktex-texmf/tex/latex/base/inputenc.sty
-INPUT /usr/local/share/miktex-texmf/tex/latex/base/inputenc.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics/keyval.sty
@@ -33,6 +45,8 @@ INPUT /usr/local/share/miktex-texmf/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/share/miktex-texmf/tex/latex/graphics-def/pdftex.def
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/float/float.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/float/float.sty
 INPUT /usr/local/share/miktex-texmf/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/share/miktex-texmf/tex/latex/hyperref/hyperref.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
@@ -79,11 +93,25 @@ INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfileche
 INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/share/miktex-texmf/tex/latex/tools/indentfirst.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/subfig/subfig.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/subfig/subfig.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/caption/caption.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/caption/caption.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /usr/local/share/miktex-texmf/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/share/miktex-texmf/tex/generic/iftex/ifvtex.sty
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg
 INPUT /usr/local/share/miktex-texmf/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/local/share/miktex-texmf/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.aux
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.aux
-OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.aux
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.aux
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.aux
+OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.aux
 INPUT /usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/share/miktex-texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -94,20 +122,97 @@ INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /home/lautaro/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.pdf
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
+OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.out
+OUTPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.pdf
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/jknappen/ec/tcrm0700.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmti7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/share/miktex-texmf/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /home/lautaro/.miktex/texmfs/data/pdftex/config/pdftex.map
+INPUT Img/punto_1_b_signal.png
+INPUT ./Img/punto_1_b_signal.png
+INPUT ./Img/punto_1_b_signal.png
+INPUT ./Img/punto_1_b_signal.png
+INPUT ./Img/punto_1_b_signal.png
+INPUT Img/punto_1_b.png
+INPUT ./Img/punto_1_b.png
+INPUT ./Img/punto_1_b.png
+INPUT ./Img/punto_1_b.png
+INPUT ./Img/punto_1_b.png
+INPUT Img/punto_1_c.png
+INPUT ./Img/punto_1_c.png
+INPUT ./Img/punto_1_c.png
+INPUT ./Img/punto_1_c.png
+INPUT ./Img/punto_1_c.png
+INPUT Img/punto_1_d.png
+INPUT ./Img/punto_1_d.png
+INPUT ./Img/punto_1_d.png
+INPUT ./Img/punto_1_d.png
+INPUT ./Img/punto_1_d.png
+INPUT Img/punto_1_e.png
+INPUT ./Img/punto_1_e.png
+INPUT ./Img/punto_1_e.png
+INPUT ./Img/punto_1_e.png
+INPUT ./Img/punto_1_e.png
+INPUT Img/punto_1_dato_de_mas.png
+INPUT ./Img/punto_1_dato_de_mas.png
+INPUT ./Img/punto_1_dato_de_mas.png
+INPUT ./Img/punto_1_dato_de_mas.png
+INPUT ./Img/punto_1_dato_de_mas.png
+INPUT Img/punto_1_g_a.png
+INPUT ./Img/punto_1_g_a.png
+INPUT ./Img/punto_1_g_a.png
+INPUT ./Img/punto_1_g_a.png
+INPUT ./Img/punto_1_g_a.png
+INPUT Img/punto_1_g_b.png
+INPUT ./Img/punto_1_g_b.png
+INPUT ./Img/punto_1_g_b.png
+INPUT ./Img/punto_1_g_b.png
+INPUT ./Img/punto_1_g_b.png
 INPUT Img/punto_2_d.png
 INPUT ./Img/punto_2_d.png
 INPUT ./Img/punto_2_d.png
@@ -128,9 +233,11 @@ INPUT ./Img/punto_2_g_2.png
 INPUT ./Img/punto_2_g_2.png
 INPUT ./Img/punto_2_g_2.png
 INPUT ./Img/punto_2_g_2.png
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.aux
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
-INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/ejercicio_2.out
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.aux
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.out
+INPUT /home/lautaro/Documents/Facultad/DSP/Proyecto 1/build/informe.out
+INPUT /home/lautaro/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
+INPUT /home/lautaro/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -139,17 +246,27 @@ INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb

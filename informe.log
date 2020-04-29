@@ -1,0 +1,297 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350) (preloaded format=pdftex 2020.4.27)  27 APR 2020 20:15
+entering extended mode
+**./informe.tex
+(informe.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  {article}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2 \usepackage
+               [latin1]{inputenc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 \usepackage
+               [spanish,es-tabla]{babel}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \usepackage
+               {amsmath}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 \usepackage
+               {amsfonts}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 \usepackage
+               {amssymb}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7 \usepackage
+               {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 \usepackage
+               {float}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 \usepackage
+               {hyperref}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 \usepackage
+                {indentfirst}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \usepackage
+                {subfig}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 \usepackage
+                [left=4cm,right=3cm,top=4cm,bottom=3cm]{geometry}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \author
+            {Gatica, Isaias \\ Martin, Santiago \\ Saez, Lautaro ﾃ］dres \\ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.13 ..., Lautaro ﾃ］dres \\ Vidman, Xavier Harry}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+ Martin, Santiago \\ Saez, Lautaro ﾃ］dres \\ Vidman, Xavier Harry
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.13 ..., Lautaro ﾃ］dres \\ Vidman, Xavier Harry}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+l.14 \title
+           {Procesamiento digital de seﾃｱales: estimaciﾃｳn del espectro de u...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+! Undefined control sequence.
+l.15 \date
+          {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 \begin
+           {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｡ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｺ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｡ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｩ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｩ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｡ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｩ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｩ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+! Undefined control sequence.
+l.22 ...utilizar correctamente la funciﾃｳn \textit
+                                                  {fftshift}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｡ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｡ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+! Undefined control sequence.
+l.28 \section
+             {Ejercicio 1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｳ in font cmr10!
+Missing character: There is no ﾃ in font cmr10!
+Missing character: There is no ｱ in font cmr10!
+! Undefined control sequence.
+l.31 \begin
+           {equation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \pi 
+l.32 x[n]=sen(2 \pi
+                    n /8)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.33 \label
+           {eq.x[n]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \end 
+l.34 \end
+         {equation}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[1{/home/lautaro/.miktex/texmfs/data/pdftex/config/pdftex.map}] )</usr/local/sh
+are/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/mi
+ktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on informe.pdf (1 page, 30637 bytes).
+PDF statistics:
+ 14 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
